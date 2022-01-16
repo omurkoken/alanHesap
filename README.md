@@ -1,0 +1,4 @@
+# alanHesap
+
+İKİ KEANRI VERİLEN DİK ÜÇGENİN HİPOTENÜS
+ÇEVRE VE ALANINI BULMA 
