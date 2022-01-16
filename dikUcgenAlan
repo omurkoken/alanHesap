@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class ucgenAlan {
+    public static void main(String[] args) {
+        // DEĞİŞKENLERİ OLUŞTUR
+        int a,b,d;
+        double c,alan;
+
+        //KULLACIDAN VERİ AL
+        Scanner uzunluk=new Scanner(System.in);
+        System.out.print("A kenarının uzunluğu: ");
+        a=uzunluk.nextInt();
+        System.out.print("B kenarının uzunluğu: ");
+        b=uzunluk.nextInt();
+
+        //HESAPLAMA BÖLÜMÜ
+
+        c= Math.sqrt((a*a)+(b*b));
+        System.out.println("Hipotenüs uzunluğu: "+c);
+
+        // c double veri olduğundan d sonucu hata vermemesi için (int) konuldu)
+        d= (int) (a+b+c);
+        System.out.println("Üçgenin Çevre Uzunluğu "+d);
+        alan = ((a*b)/2);
+        System.out.println("Üçgenin Alanı:" +alan);
+
+    }
+}
